@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    /* Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Resume */
+    .resume {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 20px;
+    }
+
+    .resume h3 {
+      margin-bottom: 10px;
+      color: #444;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Personal Website</h1>
+    <nav>
+      <a href="exam.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="Balderama_resume.html">Resume</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Rodrigo G. Balderama II, and this is my personal website. I created this page to share my work, experiences, and personal projects. Feel free to explore my gallery and resume below.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="ACT12_BALDERAMA/1.jpg" alt="Gallery Image 1">
+      <img src="ACT12_BALDERAMA/9.jpg" alt="Gallery Image 2">
+      <img src="ACT12_BALDERAMA/3.jpg" alt="Gallery Image 3">
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <div class="resume">
+      <div>
+        <h3>Education</h3>
+        <p><strong>Bachelor of Science in Information Technology</strong><br>DCCP, 2022</p>
+
+        <h3>Experience</h3>
+        <p><strong>Student Web Developer</strong>
+      </div>
+      <div>
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>React & Node.js</li>
+          <li>UI/UX Design</li>
+          <li>Database Management</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 My Personal Website! Rodrigo G. Balderama</p>
+  </footer>
+
+</body>
+</html>
