@@ -244,6 +244,59 @@
     opacity: 0.9;
     line-height: 1.6;
 }
+    #urvid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+
+}
+
+    .content {
+    position: relative;
+    z-index: 1;
+    bottom: 0;
+    color: #f1f1f1
+    text-align center;
+    margin-top: 50px;
+    
+    }    
+
+    #pause_button {
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        background:white;
+        color: #fff
+        cursor pointer;
+
+    }
+
+    #myBtn:hover{
+        background: #ddd;
+        color: black;
+    }
+
+    .scroll-container {
+      margin-top: 15px;
+      background-color: rgb(88, 88, 90);
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 5px;
+
+    }
+
+    .scroll-container img{
+      display: inline-block;
+      margin-right: 10px;
+      border-radius: 8px;
+
+    }
+
 
   </style>
+
 
