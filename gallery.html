@@ -46,8 +46,40 @@
       max-width: 1000px;
       margin: auto;
     }
-    </style>
+      
+    /* Floating effect */
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+
+    /* Changing colors */
+    @keyframes colors {
+      0% { color: #ff0000; }
+      25% { color: #00ff00; }
+      50% { color: #0000ff; }
+      75% { color: #ff00ff; }
+      100% { color: #ff0000; }
+    }
+  
+</style>
 </head>
+<body>
+
+  <header>
+    <h1>MY PORTFOLIO</h1></h1>
+    <nav>
+      <a href="arbi829.github.io">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="Balderama_resume.html">Resume</a>
+    </nav>
+  </header>
+</head>
+    
 <body>
     <video autoplay muted loop id="urvid">
   <source src="vid.mp4" type="video/mp4">
@@ -106,6 +138,7 @@ function showSlides() {
 </script>
 
    
+
 
 
 
