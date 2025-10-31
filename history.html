@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>History</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+      position: relative;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      position: relative;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Dropdown Container */
+    .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #333;
+      min-width: 160px;
+      z-index: 1;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #555;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+
+.content-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
+}
+ h1 {
+      font-size: 3em;
+      font-family: Arial, sans-serif;
+      animation: float 3s ease-in-out infinite, colors 5s linear infinite;
+    }
+
+    /* Floating effect */
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+
+    /* Changing colors */
+    @keyframes colors {
+      0% { color: #ff0000; }
+      25% { color: #00ff00; }
+      50% { color: #0000ff; }
+      75% { color: #ff00ff; }
+      100% { color: #ff0000; }
+    }
+</style>
+</head>
+<body>
+<header>
+  <h1>HISTORY</h1>
+  <nav>
+    <a href="arbi829.github.io">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="portfolio.html">Portfolio</a>
+    <div class="dropdown">
+      <a href="#">About ▾</a>
+      <div class="dropdown-content">
+        <a href="about.html">About</a>
+        <a href="mission.html">Mission</a>
+        <a href="vision.html">Vision</a>
+        <a href="history.html">History</a>
+      </div>
+    </div>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+  <section>
+    <h2>History</h2>
+    <div class="content-box">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolorum eligendi ratione corrupti quibusdam temporibus inventore, vero sapiente deleniti maxime quam nobis fugiat commodi! Et dolores maxime quam consequatur repudiandae?
+   </p>
+      
+    </div>
+  </section>
+
+<footer>
+  <p>© 2025 Rodrigo G. Balderama</p>
+  <div class="social-links">
+    <a href="https://www.facebook.com/arbi.balderama.5" target="_blank" title="Facebook">
+      <i class="fa-brands fa-facebook-f"></i>
+    </a>
+    <a href="mailto:29balderama@gmail.com" title="Email">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+    <a href="https://github.com/arbi829" target="_blank" title="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
